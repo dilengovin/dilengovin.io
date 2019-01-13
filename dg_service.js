@@ -9,7 +9,7 @@
  *      1/12/19: Created service to serve info to public/index.html
  */
 
-const http = require('express');
+const express = require('express');
 const port = process.env.PORT || 3000
 
 var app = express();
