@@ -1,0 +1,22 @@
+{
+  "name": "dilengovin-website",
+  "version": "1.0.0",
+  "description": "\"Personal Website for Dilen Govin\"",
+  "main": "dg_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilengovin/dilengovin-website.git"
+  },
+  "author": "Dilen Govin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilengovin/dilengovin-website/issues"
+  },
+  "homepage": "https://github.com/dilengovin/dilengovin-website#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
