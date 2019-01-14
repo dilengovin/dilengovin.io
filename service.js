@@ -1,7 +1,7 @@
 /**
  *  Dilen Govin
  * 
- *  File: dg_service.js
+ *  File: service.js
  *  This page implements the service logic for delivering and receiving content
  *  for personal website.
  * 

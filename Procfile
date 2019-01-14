@@ -1,1 +1,1 @@
-web: node dg_service.js
+web: node service.js
