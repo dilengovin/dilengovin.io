@@ -18,9 +18,14 @@
     // const serviceURL = "https://dilengovin.herokuapp.com/"; // Prod URL
 
     function startup() {
-        fetch(serviceURL) {
-            .then()
-        }
+        fetch(serviceURL)
+            .then(checkStatus)
+            .then(function (responseText) {
+                console.log("Retrieved shit");
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
     }
 
     /**

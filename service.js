@@ -14,10 +14,13 @@ const port = process.env.PORT || 3000
 
 var app = express();
 
+// serve static html files
+app.use(express.static('public'));
+
 app.get('/', function (req, res) {
     res.send("Hello World!");
 });
 
 app.listen(port, function () {
-    console.log(`Example app listening on port !`);
+    console.log(`Example app listening on port ` + port);
 });
